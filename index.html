@@ -12,8 +12,14 @@
         }
         
         img {
-            float: left;
-            margin-right: 10px;
+            float: left; /* Floats the image to the left */
+            margin-right: 10px; /* Adds some space to the right of the image */
+        }
+        
+        .centered-text {
+            clear: both; /* Clears any floating elements */
+            margin: 0 auto; /* Centers the text horizontally */
+            width: fit-content; /* Sets the width to fit the content */
         }
     </style>
 </head>
@@ -21,12 +27,15 @@
 <body>
     <h1>Keigo Tamaki</h1>
     <p> </p>
-    <div class="left-align">
-        <img src="KeigoAndJoey.jpg" width="225" height="400"/>
-        <p><small>Me and my dog Joey.</small></p>
+    <div class="left-align"> <!-- Added a container with left-align class -->
+        <img src="KeigoAndJoey.jpg" />
+        <div class="centered-text">
+            <p><small>Me and my dog Joey.</small></p>
+        </div>
     </div>
 </body>
 
 </html>
+
 
 
