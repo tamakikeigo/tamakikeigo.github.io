@@ -6,13 +6,26 @@
         body {
             text-align: center; /* Center aligns all content */
         }
+
+        .KeigoAndJoey {
+            text-align: left; /* Aligns content to the left */
+        }
+        
+        img.titleImage {
+            display: inline-block; /* Allows the image to be aligned */
+            margin-right: auto; /* Centers the image horizontally */
+            margin-left: 0; /* Aligns the image to the left */
+        }
     </style>
 </head>
 
 <body>
     <h1>Keigo Tamaki</h1>
     <p> </p>
-    <img src="KeigoAndJoey.jpg" />
+    <div class="KeigoAndJoey">
+        <img src="KeigoAndJoey.jpg" class="titleImage" />
+        <p><small>Me and my dog Joey.</small></p>
+    </div>
     <p><small>Me and my dog Joey.</small></p>
 </body>
 
